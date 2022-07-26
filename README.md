@@ -9,7 +9,7 @@
 
 
 ### Introductory tutorials for MedMNIST datasets:
-* [PneumoniaMNIST](./PneumoniaMNIST.ipynb) is based on a prior dataset of 5,856 pediatric chest X-Ray images. The task is binary-class classification of pneumonia against normal.  
+* [PneumoniaMNIST](./PneumoniaMNIST.ipynb) is based on a prior dataset of 5,856 pediatric chest X-Ray images. The task is binary-class classification of pneumonia against normal. This notebook contains detailed comments explaining the code, which is similar for all the below notebooks.
 * [OrganAMNIST](./OrganAMNIST.ipynb) is based on 3D CT images. Bounding-box annotations of 11 body organs are used to obtain the organ labels. Hounsfield-Unit (HU) of the 3D images are transformed into gray-scale with an abdominal window. 2D images are cropped from the center slices of the 3D bounding boxes in axial views (planes). 
 * [OrganCMNIST](./OrganCMNIST.ipynb) is similar to OrganAMNIST but with a coronal view (plane)
 * [OrganSMNIST](./OrganSMNIST.ipynb) is similar to OrganAMNIST but with a saggital view (plane)
