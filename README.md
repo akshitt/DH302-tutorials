@@ -1,2 +1,3 @@
-Introductory tutorials for MedMNIST datasets:
-* [PenumoniaMNIST](./PneumoniaMNIST.ipynb)
+Introductory tutorials for [MedMNIST](https://medmnist.com/) datasets:
+* [PneumoniaMNIST](./PneumoniaMNIST.ipynb)
+* [OrganAMNIST](./OrganAMNIST.ipynb)
