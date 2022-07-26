@@ -1,3 +1,6 @@
+# Additional content for DH 302 (2022) - Introduction to Public Health Informatics
+
+## Introduction to MedMNIST 
 [MedMNIST](https://medmnist.com/) is a large-scale MNIST-like collection of standardized biomedical images, including 12 datasets for 2D and 6 datasets for 3D. All images are pre-processed into 28 x 28 (2D) or 28 x 28 x 28 (3D) with the corresponding classification labels.
 
 ### Key Features 
@@ -8,7 +11,7 @@
 
 
 
-### Introductory tutorials for MedMNIST datasets:
+### Tutorials for different datasets of MedMNIST:
 * [PneumoniaMNIST](./PneumoniaMNIST.ipynb) is based on a prior dataset of 5,856 pediatric chest X-Ray images. The task is binary-class classification of pneumonia against normal. This notebook contains **detailed comments** explaining the code, which is similar for all the below notebooks.
 * [OrganAMNIST](./OrganAMNIST.ipynb) is based on 3D CT images. Bounding-box annotations of 11 body organs are used to obtain the organ labels. Hounsfield-Unit (HU) of the 3D images are transformed into gray-scale with an abdominal window. 2D images are cropped from the center slices of the 3D bounding boxes in axial views (planes). 
 * [OrganCMNIST](./OrganCMNIST.ipynb) is similar to OrganAMNIST but with a coronal view (plane)
