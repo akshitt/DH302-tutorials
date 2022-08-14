@@ -1,4 +1,5 @@
 # Additional content for DH 302 (2022) - Introduction to Public Health Informatics
+This repository contains additional material that may come handy while students work on their respective course projects. Prepared under the supervision of Prof. Ganesh Ramakrishnan by Akshit Srivastava & Atharv Savarkar.
 
 ## 1. MedMNIST 
 [MedMNIST](https://medmnist.com/) is a large-scale MNIST-like collection of standardized biomedical images, including 12 datasets for 2D and 6 datasets for 3D. All images are pre-processed into 28 x 28 (2D) or 28 x 28 x 28 (3D) with the corresponding classification labels.
